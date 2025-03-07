@@ -35,12 +35,10 @@ header > h1 {
 } 
 
 section {
-    padding: 10vh 0vh 10vh 30px;
     line-height: 2em;  
     font-family: var(--f3);
     font-size: 3vh;
     font-weight: bold;
-    
 }
 
 section.normal {
@@ -48,16 +46,43 @@ section.normal {
     color: black;
 }
 
+section.normal1 > p {
+    background-color: white;
+    color: black;
+    padding: 0em 0px 2em 2em;
+}
+
+section > p {
+    padding: 4em 0px 4em 2em;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    padding: 16vh 0vh 16vh 30px;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    padding: 16vh 0vh 16vh 30px;
+}
+
+
 section.imagem {
     background-color: rgb(32, 32, 32);
     color: darkgrey;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.500);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.300);
+    background-color: rgba(0, 0, 0, 0.800);
     width: 400px;
     display: inline-block;
+    text-shadow: 1px 1px 2px black;
+    padding: 2em 0vh 2em 1em;
 }
 
 a {
